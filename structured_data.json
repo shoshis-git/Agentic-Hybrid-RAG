@@ -1,0 +1,621 @@
+{
+  "decisions": [
+    {
+      "title": "Create Team Button Color Change",
+      "summary": "Modified the button color from indigo-purple to teal-purple gradient.",
+      "status": "active"
+    },
+    {
+      "title": "Angular 21 (Standalone Components)",
+      "summary": "Using Angular 21 with standalone APIs instead of NgModules.",
+      "status": "active"
+    },
+    {
+      "title": "SSR + Hydration",
+      "summary": "Server-side rendering and client hydration enabled with prerendering.",
+      "status": "active"
+    },
+    {
+      "title": "HTTP Client + REST API",
+      "summary": "Angular HttpClient for backend communication with REST endpoints.",
+      "status": "active"
+    },
+    {
+      "title": "Environment-based Configuration",
+      "summary": "API base URL controlled via Angular environments, with a potential inconsistency in some services.",
+      "status": "active"
+    },
+    {
+      "title": "Auth Service File",
+      "summary": "Highly sensitive file requiring careful review for any modifications.",
+      "status": "active"
+    },
+    {
+      "title": "JWT Token in localStorage",
+      "summary": "Storing access token in localStorage for authentication.",
+      "status": "active"
+    },
+    {
+      "title": "HTTP Interceptor for Bearer Token",
+      "summary": "Using functional interceptor to add Bearer token to HTTP requests.",
+      "status": "active"
+    },
+    {
+      "title": "Route Protection",
+      "summary": "Using functional guard to protect routes requiring authentication.",
+      "status": "active"
+    },
+    {
+      "title": "Angular Signals for Local State",
+      "summary": "Using Angular signals for component/service state and computed for derived views.",
+      "status": "active"
+    },
+    {
+      "title": "RxJS Observables for IO",
+      "summary": "Using RxJS Observables for HTTP calls and side-effects.",
+      "status": "active"
+    },
+    {
+      "title": "Angular Material + CDK",
+      "summary": "Using Angular Material and CDK for UI components.",
+      "status": "active"
+    },
+    {
+      "title": "SweetAlert2 for Dialogs/Notifications",
+      "summary": "Using SweetAlert2 for dialogs and notifications.",
+      "status": "active"
+    },
+    {
+      "title": "Chart.js via ng2-charts",
+      "summary": "Using Chart.js with ng2-charts for charts.",
+      "status": "active"
+    },
+    {
+      "title": "Vitest + JSDOM for Testing",
+      "summary": "Using Vitest and JSDOM for testing.",
+      "status": "active"
+    },
+    {
+      "title": "Global Styles + SCSS Theme",
+      "summary": "Using global CSS and SCSS theme for styling.",
+      "status": "active"
+    },
+    {
+      "title": "Frontend API Target on Render",
+      "summary": "Frontend API hosted on Render.",
+      "status": "active"
+    },
+    {
+      "title": "Add Task Editing Capability",
+      "summary": "Implementing task editing to enhance user experience and reduce friction.",
+      "status": "active"
+    },
+    {
+      "title": "Architecture Pattern",
+      "summary": "The application follows a feature-based structure with separation into Core, Features, and Shared layers.",
+      "status": "active"
+    },
+    {
+      "title": "Application Bootstrap",
+      "summary": "Client entrypoint and root component configuration, along with provider setup.",
+      "status": "active"
+    },
+    {
+      "title": "SSR and Server Entrypoints",
+      "summary": "Configuration for server-side rendering and server providers.",
+      "status": "active"
+    },
+    {
+      "title": "Routing Architecture",
+      "summary": "Angular Router setup with route structure and protection mechanisms.",
+      "status": "active"
+    },
+    {
+      "title": "State Management",
+      "summary": "Using Angular Signals for reactive state, including signals for user and task data.",
+      "status": "active"
+    },
+    {
+      "title": "HTTP Communication",
+      "summary": "API integration details, base URL, authentication headers, and service structure.",
+      "status": "active"
+    },
+    {
+      "title": "Authentication Flow",
+      "summary": "Step-by-step process for user authentication and token management.",
+      "status": "active"
+    },
+    {
+      "title": "Component Architecture",
+      "summary": "Discussion on component patterns, communication, and key components like TaskBoard, Header, and CommentsComponent.",
+      "status": "active"
+    },
+    {
+      "title": "UI/UX Features",
+      "summary": "UI toolkit, user feedback mechanisms, animations, and data visualization tools.",
+      "status": "active"
+    },
+    {
+      "title": "Data Models",
+      "summary": "Core TypeScript interfaces for User, Teams, Projects, Tasks, and Comments.",
+      "status": "active"
+    },
+    {
+      "title": "Testing Strategy",
+      "summary": "Test tooling and unit test structure.",
+      "status": "active"
+    },
+    {
+      "title": "Build and Deployment",
+      "summary": "Development, production build, and server-side rendering instructions.",
+      "status": "active"
+    },
+    {
+      "title": "Design Patterns",
+      "summary": "Observed design patterns like Dependency Injection, Observable, Guard, Interceptor, and Signal patterns.",
+      "status": "active"
+    },
+    {
+      "title": "Security Considerations",
+      "summary": "Client-side security measures including JWT authentication, route guards, HTTP interceptor, and logout mechanism.",
+      "status": "active"
+    },
+    {
+      "title": "Performance and UX Optimizations",
+      "summary": "Techniques to enhance performance and user experience.",
+      "status": "active"
+    },
+    {
+      "title": "Scalability Considerations",
+      "summary": "Discussion on the application's scalability aspects.",
+      "status": "active"
+    },
+    {
+      "title": "Add ThemeService",
+      "summary": "Implement ThemeService with persistence, apply theme, and provide necessary methods.",
+      "status": "active"
+    },
+    {
+      "title": "Initialize Theme Early",
+      "summary": "Ensure theme initialization during app startup.",
+      "status": "active"
+    },
+    {
+      "title": "Add UI Toggle in Header",
+      "summary": "Implement a toggle button in the header for theme switching.",
+      "status": "active"
+    },
+    {
+      "title": "Global Theming Styles",
+      "summary": "Update CSS and SCSS files to support dark mode.",
+      "status": "active"
+    },
+    {
+      "title": "Log Sensitive Areas",
+      "summary": "Update logs with any sensitive areas found during editing.",
+      "status": "active"
+    },
+    {
+      "title": "Run Checks",
+      "summary": "Execute build and other checks to ensure functionality.",
+      "status": "active"
+    },
+    {
+      "title": "שינוי צבע כפתור \"צור צוות\"",
+      "summary": "עדכון צבע הכפתור מ-טורקיז/סגול לכחול-סגלגל",
+      "status": "active"
+    },
+    {
+      "title": "Disable Task Editing",
+      "summary": "Remove the ability to edit tasks via the ✏️ button and popup.",
+      "status": "active"
+    },
+    {
+      "title": "Add User-Facing Dark Mode Toggle",
+      "summary": "Implement a visible toggle for users to switch between light and dark modes.",
+      "status": "active"
+    },
+    {
+      "title": "Persist Theme Preference",
+      "summary": "Ensure the selected theme is saved and applied across refreshes.",
+      "status": "active"
+    },
+    {
+      "title": "Minimal Invasive CSS Changes",
+      "summary": "Apply the theme with minimal changes to the existing CSS structure.",
+      "status": "active"
+    },
+    {
+      "title": "Avoid Breaking Angular Material Theming",
+      "summary": "Ensure the dark mode implementation does not interfere with Angular Material theming.",
+      "status": "active"
+    },
+    {
+      "title": "Avoid Flash on Initial Load",
+      "summary": "Initialize the theme early to reduce any visual flash during SSR rendering.",
+      "status": "active"
+    },
+    {
+      "title": "Add UI Toggle Button",
+      "summary": "Implement a toggle button in the header for users to switch themes.",
+      "status": "active"
+    },
+    {
+      "title": "Define Global Theme Variables",
+      "summary": "Set up CSS variables for light and dark mode themes and apply them globally.",
+      "status": "active"
+    },
+    {
+      "title": "Record Sensitive Areas",
+      "summary": "Document any issues or sensitive areas encountered during implementation.",
+      "status": "active"
+    },
+    {
+      "title": "Manual Verification",
+      "summary": "Manually check key screens for contrast and readability after implementation.",
+      "status": "active"
+    },
+    {
+      "title": "Refactor Header Colors",
+      "summary": "Convert key header colors to CSS variables and add a toggle button.",
+      "status": "active"
+    },
+    {
+      "title": "Theme Application Mechanism",
+      "summary": "Apply theme by setting data-theme on the <html> element, relying on browser execution.",
+      "status": "active"
+    },
+    {
+      "title": "Material Color-Scheme Switching",
+      "summary": "Adjust color-scheme for Material components, but may require a full dark theme later.",
+      "status": "active"
+    },
+    {
+      "title": "Global Body Colors",
+      "summary": "Set body background and text colors using CSS variables, with light/dark token sets.",
+      "status": "active"
+    }
+  ],
+  "rules": [
+    {
+      "rule": "The 'Create Team' button will now display a teal-to-purple gradient.",
+      "scope": "UI"
+    },
+    {
+      "rule": "Maintain existing hover effects and transitions for the button.",
+      "scope": "UI"
+    },
+    {
+      "rule": "Use a cooler teal tone to improve visual distinction.",
+      "scope": "UI"
+    },
+    {
+      "rule": "Any modifications to the Auth Service file must be carefully reviewed and justified.",
+      "scope": "Authentication"
+    },
+    {
+      "rule": "Changes to auth logic, token handling, or session management require extreme caution.",
+      "scope": "Authentication"
+    },
+    {
+      "rule": "Use functional providers instead of module-based providers.",
+      "scope": "Backend Communication"
+    },
+    {
+      "rule": "Use functional routing instead of module-based routing.",
+      "scope": "Routing"
+    },
+    {
+      "rule": "Avoid potential duplication by ensuring `provideRouter(routes)` appears only once.",
+      "scope": "Routing"
+    },
+    {
+      "rule": "Inject services instead of components to avoid tighter coupling and potential DI issues.",
+      "scope": "Dependency Injection"
+    },
+    {
+      "rule": "Allow full task updates, including title, description, and due date.",
+      "scope": "TaskService"
+    },
+    {
+      "rule": "Display edit buttons (✏️ עריכה) on all task columns.",
+      "scope": "TaskBoard Component"
+    },
+    {
+      "rule": "Open a modal dialog with editable fields for task details.",
+      "scope": "TaskBoard Component"
+    },
+    {
+      "rule": "Validate that the task title is not empty before updating.",
+      "scope": "TaskBoard Component"
+    },
+    {
+      "rule": "Send update requests to the backend API.",
+      "scope": "TaskBoard Component"
+    },
+    {
+      "rule": "Update local task list and display success/error notifications.",
+      "scope": "TaskBoard Component"
+    },
+    {
+      "rule": "Display a form with fields for title, description, priority, and due date.",
+      "scope": "Task Board Template"
+    },
+    {
+      "rule": "Make the title field mandatory.",
+      "scope": "Task Board Template"
+    },
+    {
+      "rule": "Show a success toast notification after a successful edit.",
+      "scope": "Task Board Template"
+    },
+    {
+      "rule": "Handle errors, including permission checks, and display appropriate messages.",
+      "scope": "Task Board Template"
+    },
+    {
+      "rule": "Automatically update the UI after a successful edit.",
+      "scope": "Task Board Template"
+    },
+    {
+      "rule": "Use Angular 21 for the project.",
+      "scope": "Frontend"
+    },
+    {
+      "rule": "Organize the application around auth, teams, projects, tasks, and comments domains.",
+      "scope": "Architecture"
+    },
+    {
+      "rule": "Utilize standalone components instead of NgModules.",
+      "scope": "Component Structure"
+    },
+    {
+      "rule": "Use Angular Signals for local reactive state management.",
+      "scope": "State Management"
+    },
+    {
+      "rule": "Integrate RxJS and HttpClient for I/O operations.",
+      "scope": "Data Communication"
+    },
+    {
+      "rule": "Implement SSR (Server-Side Rendering) and hydration for improved performance.",
+      "scope": "Performance"
+    },
+    {
+      "rule": "Follow a feature-based architecture with Core, Features, and Shared layers.",
+      "scope": "Architecture"
+    },
+    {
+      "rule": "Place shared services, guards, and interceptors in the Core layer.",
+      "scope": "Core Layer"
+    },
+    {
+      "rule": "Feature modules with their own components should reside in the Features layer.",
+      "scope": "Features Layer"
+    },
+    {
+      "rule": "Reusable components, directives, and models should be placed in the Shared layer.",
+      "scope": "Shared Layer"
+    },
+    {
+      "rule": "Use Angular Router for routing with a defined route structure.",
+      "scope": "Routing"
+    },
+    {
+      "rule": "Protect routes using the AuthGuard.",
+      "scope": "Route Protection"
+    },
+    {
+      "rule": "Prerender routes on the server side.",
+      "scope": "Server Routing"
+    },
+    {
+      "rule": "Store JWT token in localStorage for authentication.",
+      "scope": "Authentication"
+    },
+    {
+      "rule": "Validate session on startup via a GET request to /auth/me.",
+      "scope": "Session Validation"
+    },
+    {
+      "rule": "Attach the token to requests via an HTTP interceptor.",
+      "scope": "HTTP Interceptor"
+    },
+    {
+      "rule": "Use Angular Signals for reactive state, including signals for current user and task list.",
+      "scope": "State Management"
+    },
+    {
+      "rule": "Define computed signals for filtered task lists by status.",
+      "scope": "State Management"
+    },
+    {
+      "rule": "Implement a computed signal for tasks filtered by the current user.",
+      "scope": "State Management"
+    },
+    {
+      "rule": "Use Angular Material and CDK for the UI toolkit.",
+      "scope": "UI Toolkit"
+    },
+    {
+      "rule": "Utilize SweetAlert2 for modal dialogs and user feedback.",
+      "scope": "User Feedback"
+    },
+    {
+      "rule": "Implement loading states using signals for async operations.",
+      "scope": "User Feedback"
+    },
+    {
+      "rule": "Integrate ng2-charts for data visualization.",
+      "scope": "Data Visualization"
+    },
+    {
+      "rule": "Define core TypeScript interfaces for data models.",
+      "scope": "Data Models"
+    },
+    {
+      "rule": "Use Vitest and JSDOM for testing.",
+      "scope": "Testing"
+    },
+    {
+      "rule": "Develop unit tests for services and components.",
+      "scope": "Testing"
+    },
+    {
+      "rule": "Use npm start for development and ng serve on localhost:4200.",
+      "scope": "Development"
+    },
+    {
+      "rule": "Build for production using npm run build.",
+      "scope": "Production Build"
+    },
+    {
+      "rule": "Implement server-side rendering (SSR) using Angular SSR and Express.",
+      "scope": "SSR"
+    },
+    {
+      "rule": "Utilize hydration with event replay for better UX.",
+      "scope": "Hydration"
+    },
+    {
+      "rule": "Apply minification, optimization, and hashing for production builds.",
+      "scope": "Production Build"
+    },
+    {
+      "rule": "The feature-based structure allows for easy addition of new features.",
+      "scope": "Scalability"
+    },
+    {
+      "rule": "Centralize business logic in the service layer.",
+      "scope": "Scalability"
+    },
+    {
+      "rule": "Use shared models for type safety across the application.",
+      "scope": "Scalability"
+    },
+    {
+      "rule": "Configure environment settings for easy deployment to different environments.",
+      "scope": "Scalability"
+    },
+    {
+      "rule": "The modular architecture enables extraction of components to libraries.",
+      "scope": "Scalability"
+    },
+    {
+      "rule": "Persist theme in localStorage with default light mode.",
+      "scope": "ThemeService"
+    },
+    {
+      "rule": "Apply theme via document.documentElement.dataset.theme.",
+      "scope": "ThemeService"
+    },
+    {
+      "rule": "Provide init(), toggle(), setTheme(), and isDark() methods in ThemeService.",
+      "scope": "ThemeService"
+    },
+    {
+      "rule": "Initialize themeService.init() in src/app/app.ts.",
+      "scope": "App Startup"
+    },
+    {
+      "rule": "Update header.html, header.ts, and header.css to add a toggle button and hook to ThemeService.",
+      "scope": "Header UI"
+    },
+    {
+      "rule": "Define base CSS variables and dark overrides in styles.css.",
+      "scope": "Global Styles"
+    },
+    {
+      "rule": "Switch color-scheme based on data-theme='dark' in material-theme.scss.",
+      "scope": "Global Styles"
+    },
+    {
+      "rule": "Run npm run build and other configured checks.",
+      "scope": "Build and Testing"
+    },
+    {
+      "rule": "שימוש ב-gradient לצבע הכפתור",
+      "scope": "UI"
+    },
+    {
+      "rule": "שינוי ערכי ה-gradient לצבעים #6366f1 ו-#8b5cf6",
+      "scope": "UI"
+    },
+    {
+      "rule": "Prevent users from changing historical task data.",
+      "scope": "Security"
+    },
+    {
+      "rule": "Remove the edit button and associated popup flow from the UI.",
+      "scope": "UI"
+    },
+    {
+      "rule": "Add a client-side guard to block edits to title, description, and due date.",
+      "scope": "Service Layer"
+    },
+    {
+      "rule": "Ensure users can still create, delete, change status/priority, and assign tasks.",
+      "scope": "UI Functionality"
+    },
+    {
+      "rule": "Use CSS Variables for Theme Control",
+      "scope": "UI"
+    },
+    {
+      "rule": "Align with Angular Material Theming",
+      "scope": "UI"
+    },
+    {
+      "rule": "Store Theme Preference in Local Storage",
+      "scope": "UI"
+    },
+    {
+      "rule": "Initialize Theme Early for SSR",
+      "scope": "UI"
+    },
+    {
+      "rule": "Add Toggle Button in Header",
+      "scope": "UI"
+    },
+    {
+      "rule": "Update Global CSS with Theme Variables",
+      "scope": "UI"
+    },
+    {
+      "rule": "Document Implementation Issues",
+      "scope": "Development"
+    },
+    {
+      "rule": "Run Tests and Linting",
+      "scope": "Development"
+    },
+    {
+      "rule": "Verify Contrast and Readability",
+      "scope": "UI"
+    },
+    {
+      "rule": "Avoid large refactor, introduce CSS variables gradually.",
+      "scope": "UI"
+    },
+    {
+      "rule": "Prevent theme flash on load, apply theme early during bootstrap.",
+      "scope": "UI"
+    },
+    {
+      "rule": "Logo gradient remains hard-coded for now.",
+      "scope": "UI"
+    },
+    {
+      "rule": "ThemeService guards localStorage access, but document access assumes client-side execution.",
+      "scope": "UI"
+    },
+    {
+      "rule": "Material components may require a full dark theme integration.",
+      "scope": "UI"
+    },
+    {
+      "rule": "Feature-level component styles may need incremental variable refactors.",
+      "scope": "UI"
+    }
+  ]
+}

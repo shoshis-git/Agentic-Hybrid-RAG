@@ -1,0 +1,52 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+env/
+.venv/
+
+# Environment variables (IMPORTANT)
+.env
+.env.*
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Data files (optional - adjust if needed)
+*.sqlite3
+*.db
+
+# Generated structured data
+structured_data.json
+
+# Gradio temporary files
+tmp/
+
+# Node (if any frontend)
+node_modules/
+
+# Misc
+*.swp
